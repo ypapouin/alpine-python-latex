@@ -10,3 +10,4 @@ RUN apk add make
 RUN apk add inkscape
 RUN apk add texlive
 RUN apk add texmf-dist-fontsextra
+RUN apk add texmf-dist-full
