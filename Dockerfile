@@ -10,6 +10,7 @@ RUN apk add inkscape
 RUN apk add texlive
 RUN apk add texmf-dist-fontsextra
 RUN apk add texmf-dist-full
+RUN apk add ttf-opensans
 
 # Copy local fonts in an indexable place
 COPY fonts/* ~/.fonts/
