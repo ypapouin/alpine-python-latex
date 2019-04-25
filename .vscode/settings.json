@@ -1,0 +1,17 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.wordHighlightBackground": "#ffffff0a",
+        "editor.selectionBackground": "#003f9e",
+        "editor.selectionForeground": "#ffffff",
+        "editor.selectionHighlightBackground": "#ff33cc66",
+        "editorOverviewRuler.errorForeground": "#ff33cc",
+        "editorOverviewRuler.addedForeground": "#006eff",
+        "editorOverviewRuler.modifiedForeground": "#009c1a",
+        "editorOverviewRuler.deletedForeground": "#bb0404",
+        "editorOverviewRuler.bracketMatchForeground": "#00a2ff",
+        "editor.wordHighlightBorder": "#ff5f5f",
+        "activityBar.background": "#033616",
+        "titleBar.activeBackground": "#044B1F",
+        "titleBar.activeForeground": "#F0FEF5"
+    }
+}
