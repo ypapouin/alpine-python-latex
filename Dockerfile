@@ -13,6 +13,6 @@ RUN apk add texmf-dist-full
 RUN apk add ttf-opensans
 
 # Copy local fonts in an indexable place
-COPY fonts/* ~/.fonts/
+COPY fonts/* /usr/share/fonts/truetype/
 # Update font cache
 RUN fc-cache -f -v
