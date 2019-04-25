@@ -12,6 +12,6 @@ RUN apk add texmf-dist-fontsextra
 RUN apk add texmf-dist-full
 
 # Copy local fonts in an indexable place
-COPY fonts/* ~/.fonts
+COPY fonts/* ~/.fonts/
 # Update font cache
 RUN fc-cache -f -v
