@@ -10,7 +10,7 @@ RUN apk add inkscape
 RUN apk add texlive
 RUN apk add texmf-dist-fontsextra
 RUN apk add texmf-dist-full
-RUN apk add ttf-opensans ttf-liberation ttf-font-awesome ttf-dejavu
+RUN apk add ttf-opensans ttf-liberation ttf-dejavu
 RUN apk add msttcorefonts-installer fontconfig && update-ms-fonts
 
 # Copy local fonts in an indexable place
