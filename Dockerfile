@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.7-alpine3.13
 LABEL "Description"=""
 LABEL maintainer="y.papouin@dec-industrie.com"
 ENV VERSION 3.7
