@@ -1,7 +1,7 @@
-FROM python:3.7-alpine3.13
+FROM python:3.11.1-alpine3.17
 LABEL "Description"=""
-LABEL maintainer="y.papouin@dec-industrie.com"
-ENV VERSION 3.7
+LABEL maintainer="ypa@decgroupe.com"
+ENV VERSION 3.11
 
 RUN apk update
 RUN apk add git
