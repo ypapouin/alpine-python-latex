@@ -5,6 +5,7 @@ ENV VERSION 3.11
 
 RUN apk update
 RUN apk add git
+RUN apk add nano
 RUN apk add make
 RUN apk add inkscape
 RUN apk add texlive
