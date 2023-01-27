@@ -9,7 +9,8 @@ RUN apk add nano
 RUN apk add make
 RUN apk add inkscape
 RUN apk add texlive
-RUN apk add texmf-dist-fontsextra
+RUN apk add texlive-xetex
+# https://pkgs.alpinelinux.org/package/edge/community/x86/texmf-dist-full
 RUN apk add texmf-dist-full
 RUN apk add ttf-opensans ttf-liberation ttf-dejavu
 RUN apk add msttcorefonts-installer fontconfig && update-ms-fonts
