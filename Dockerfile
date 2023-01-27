@@ -12,7 +12,9 @@ RUN apk add texlive
 RUN apk add texlive-xetex
 # https://pkgs.alpinelinux.org/package/edge/community/x86/texmf-dist-full
 RUN apk add texmf-dist-full
-RUN apk add ttf-opensans ttf-liberation ttf-dejavu
+RUN apk add font-noto-all font-noto-cjk font-noto-extra font-noto-emoji
+# Note: ttf- renamed to font- in alpine 3.17
+RUN apk add font-opensans font-liberation font-dejavu font-inconsolata font-awesome
 RUN apk add msttcorefonts-installer fontconfig && update-ms-fonts
 
 # Copy local fonts in an indexable place
